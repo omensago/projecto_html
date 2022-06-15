@@ -216,6 +216,11 @@ p {
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
+
+}
+
+.justificado p {
+  text-align: justify;
 }
 .lead {
   font-size: 16px;
@@ -441,7 +446,7 @@ section {
   margin-bottom: 40px !important;
 }
 .mb-60 {
-  margin-bottom: 60px !important;
+  margin-bottom: -47px !important;
 }
 .mb-70 {
   margin-bottom: 70px !important;
@@ -2148,7 +2153,7 @@ section {
   position: relative;
 }
 .feature-panel .feature--icon {
-  color: #d8ae76;
+  color: #f7ac44;
   font-size: 60px;
   line-height: 1;
   margin-bottom: 20px;
@@ -2891,7 +2896,7 @@ section {
   padding-left: 50px;
 }
 .count-box .count-icon {
-  color: #d8ae76;
+  color: #070707;
   font-size: 76px;
   margin-bottom: 10px;
   line-height: 1;
@@ -2903,7 +2908,7 @@ section {
   padding-left: 65px;
 }
 .count-box .counting {
-  color: #363636;
+  color: #79aea1;
   font-size: 36px;
   font-weight: 700;
   font-family: 'Open Sans', sans-serif;
