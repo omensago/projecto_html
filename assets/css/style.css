@@ -875,7 +875,7 @@ section {
     #BACKGROUNDS
 \*------------------------------------*/
 .bg-theme {
-  background-color: #d8ae76 !important;
+  background-color: #070707 !important;
 }
 .bg-gray {
   background-color: #f8f8f8 !important;
@@ -1140,7 +1140,7 @@ section {
 }
 /* Button Primary */
 .btn--primary {
-  background-color: #d8ae76;
+  background-color: #0e005d;
   color: #ffffff;
 }
 .btn--primary:active,
@@ -1198,15 +1198,15 @@ section {
   background-color: transparent;
 }
 .btn--bordered.btn--primary {
-  color: #d8ae76;
-  border-color: #d8ae76;
+  color: #f1e9de;
+  border-color: #faf0e2;
 }
 .btn--bordered.btn--primary:active,
 .btn--bordered.btn--primary:focus,
 .btn--bordered.btn--primary:hover {
   color: #ffffff;
-  background-color: #d8ae76;
-  border-color: #d8ae76;
+  background-color: #59b921;
+  border-color: #fff3f3;
 }
 .btn--bordered.btn--secondary {
   color: #363636;
@@ -1603,7 +1603,7 @@ section {
 }
 .navbar-nav > li > a:hover::before,
 .navbar-nav > li.active > a:before {
-  background-color: #ffffff;
+  background-color: #e81111;
   width: 100%;
 }
 .transparent-header .navbar {
@@ -1649,7 +1649,7 @@ section {
 }
 .header-fixed .navbar.affix .navbar-nav > li > a:hover::before,
 .header-fixed .navbar.affix .navbar-nav > li.active > a:before {
-  background-color: #222222;
+  background-color: #0dd02d;
 }
 /* Header Centered */
 .header-centered {
@@ -2900,7 +2900,7 @@ section {
   padding-left: 50px;
 }
 .count-box .count-icon {
-  color: #070707;
+  color: #454448;
   font-size: 76px;
   margin-bottom: 10px;
   line-height: 1;
@@ -2986,7 +2986,7 @@ section {
 }
 .member .member-overlay .member-social {
   border-radius: 2px;
-  background-color: #d8ae76;
+  background-color: #3b4e96;
   opacity: 0.9;
   width: 100%;
   height: 100%;
@@ -3050,6 +3050,7 @@ section {
 .clients {
   padding-top: 55px;
   padding-bottom: 55px;
+
 }
 .client img {
   max-width: 100%;
@@ -3057,11 +3058,13 @@ section {
 }
 .clients-carousel [class*="col-"] {
   max-height: 80px;
+
 }
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .client img {
     margin-bottom: 20px;
+
   }
 }
 /*------------------------------------*\
