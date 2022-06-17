@@ -1146,7 +1146,7 @@ section {
 .btn--primary:active,
 .btn--primary:focus,
 .btn--primary:hover {
-  background-color: #363636;
+  background-color: #5ed70d;
   color: #ffffff;
 }
 .bg-dark .btn--primary:active,
